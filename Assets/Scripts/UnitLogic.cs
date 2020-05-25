@@ -61,9 +61,9 @@ public class UnitLogic : MonoBehaviour
             for (var i = 0; i < weapons.Length; i++)
             {
                 var weapon = weapons[i];
-                if (weaponsCooldown[i] >= weapon.cooldown)
+                if (weaponsCooldown[i] >= weapon.Cooldown)
                 {
-                    target.currentHealth -= weapon.damage;
+                    target.currentHealth -= weapon.Damage;
                     weaponsCooldown[i] = 0;
                 }
             }

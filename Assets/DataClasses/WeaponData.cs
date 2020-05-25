@@ -1,7 +1,12 @@
-﻿using UnityEngine;
-
-public class WeaponData : MonoBehaviour
+public interface WeaponData
 {
-    public float cooldown;
-    public int damage;
+    float Cooldown
+    {
+        get;
+    }
+    
+    int Damage
+    {
+        get;
+    }
 }
