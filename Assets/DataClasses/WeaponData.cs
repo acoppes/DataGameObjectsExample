@@ -2,5 +2,6 @@
 
 public class WeaponData : MonoBehaviour
 {
-    public float damage;
+    public float cooldown;
+    public int damage;
 }
