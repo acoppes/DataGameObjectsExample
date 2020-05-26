@@ -16,6 +16,8 @@ public class UnitLogic : MonoBehaviour
 
     private float[] weaponsCooldown;
     
+    public HealthData pipote;
+    
     private void Start()
     {
         health = dataGameObject.GetComponentInChildren<HealthData>();

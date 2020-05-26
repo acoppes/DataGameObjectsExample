@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 720455933089686854}
   - component: {fileID: 4785661417718737719}
   m_Layer: 0
-  m_Name: Sword
+  m_Name: BasicSword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,4 +44,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldown: 1
-  damage: 15
+  damage: 35

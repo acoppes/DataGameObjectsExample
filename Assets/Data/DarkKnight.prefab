@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5231653905218184768}
   - component: {fileID: 6059175749353864806}
   m_Layer: 0
-  m_Name: Soldier
+  m_Name: DarkKnight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e273a66c07dd493f9004db6402aad5db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Humans
+  name: Undead
 --- !u!1 &6934509138282751532
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc13782b17ec7fb41b1da12f2b7687ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  health: 500
 --- !u!1001 &4919674720260110535
 PrefabInstance:
   m_ObjectHideFlags: 0
